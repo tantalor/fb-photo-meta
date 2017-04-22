@@ -1,0 +1,9 @@
+fb-photo-meta
+
+This is a Chrome extension that downloads photos from Facebook with metadata (EXIF).
+
+The problem is that Facebook's built-in photo download features do not add metadata such as date. This means that exporting photos to a different storage service such as Google Photos loses important information.
+
+This extension downloads each photo in an album by navigating through using the "next photo" user interface. It scrapes the date of the photo and adds it to the file's EXIF data. Currently no other metadata is added such as location, description, or comments.
+
+Uses https://github.com/hMatoba/piexifjs for EXIF.

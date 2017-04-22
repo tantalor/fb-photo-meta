@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "FB Photo Meta",
+  "description": "Downloads photos from Facebook with metadata (EXIF).",
+  "version": "1.0",
+  
+  "background": {
+    "scripts": ["background.js", "piexif.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "<all_urls>"
+  ]
+}
